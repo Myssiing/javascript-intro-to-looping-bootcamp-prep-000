@@ -23,7 +23,7 @@ function doWhileLoop(array) {
       console.log('yarr')
       array.shift()
     }
-    while (array.length > 0 && maybeTrue())
+    while (array.length > 0 && maybeTrue().)
     return array
   }
 }
