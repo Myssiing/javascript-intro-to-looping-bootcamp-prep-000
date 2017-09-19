@@ -20,7 +20,7 @@ function whileLoop(number) {
 function doWhileLoop(array) {
   function maybeTrue() >= 0.1 {
     do {
-      console.log('yarr')
+      console.log('yarr mateys')
       array.shift()
     }
     while (array.length > 0 && maybeTrue().)
