@@ -18,9 +18,11 @@ function whileLoop(number) {
 }
 
 function doWhileLoop(array) {
-  do {
-    array.length --
+  function maybeTrue() {
+    do {
+      array.length --
+    }
+    while (array.length > 0 && maybeTrue())
+    return array
   }
-  while (array.length > 0 && maybeTrue())
-  return array
 }
