@@ -18,9 +18,10 @@ function whileLoop(number) {
 }
 
 function doWhileLoop(array) {
-  function maybeTrue() {
+  function maybeTrue() >= 0.1 {
     do {
-      array.length --
+      console.log('yarr')
+      array.shift()
     }
     while (array.length > 0 && maybeTrue())
     return array
